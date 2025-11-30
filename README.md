@@ -8,10 +8,10 @@
 ---
 
 ## 👥 Team Members
-- **Member 1 – Data Collection:** [Name]  
-- **Member 2 – Data Inspection:** [Name]  
-- **Member 3 – Data Cleaning:** [Name]  
-- **Member 4 – EDA Analyst:** [Name]  
+- **Member 1 – Data Collection:** Assem El-Masri 
+- **Member 2 – Data Inspection:** Ali Ebrahim  
+- **Member 3 – Data Cleaning:** Abdelrahman Eslam  
+- **Member 4 – EDA Analyst:** Karim Emad
 
 ---
 
