@@ -10,14 +10,14 @@
 ## 👥 Team Members
 - **Member 1 – Data Collection:** `Assem El-Masri` 
 - **Member 2 – Data Inspection:** `Ali Ebrahim`  
-- **Member 3 – Data Cleaning:** `Abdelrahman Eslam ` 
+- **Member 3 – Data Cleaning & ML model:** `Abdelrahman Eslam ` 
 - **Member 4 – EDA Analyst:** `Karim Emad`
 
 ---
 
 ## 📌 Project Overview
 This project involves collecting, inspecting, cleaning, and analyzing a dataset to demonstrate the full **data science workflow**.  
-The dataset is collected via **web scraping or APIs**, inspected for quality issues, cleaned, and then analyzed through **exploratory data analysis (EDA)** with visualizations and insights.
+The dataset is collected via **web scraping or APIs**, inspected for quality issues, cleaned, and then analyzed through **exploratory data analysis (EDA)** with visualizations and insights then building a machine learning model.
 
 ---
 
@@ -38,17 +38,39 @@ The dataset is collected via **web scraping or APIs**, inspected for quality iss
    - Perform descriptive statistics.  
    - Create visualizations (histograms, scatter plots, heatmaps).  
    - Summarize insights and trends.  
+5. **Machine Learning Model**  
+   - Select and justify a model.
+   - Train, validate, and evaluate the model.
+
+
 
 ---
 
 ## ⚙️ Requirements
-- Python 3.9+  
+- Python 3.13+  
 - Jupyter Notebook  
 - Libraries:  
   - pandas  
   - numpy  
   - matplotlib  
   - seaborn
+  - requests
+  - BeautifulSoup4
+  - scikit-learn
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install pandas numpy matplotlib seaborn requests beautifulsoup4 scikit-learn
+```
+
+---
+## 📁 Repository Structure
+```
+AlexU_DSM_FinalProject/
+│── DataScienceMethodology_Fall2025_Final.ipynb  # Main Jupyter Notebook
+│── README.md                                     # Project Overview
+│── data/                                         # Folder for datasets
+│   └── raw/                                      # Raw datasets
+│   └── cleaned/                                  # Cleaned datasets
+│── notebooks/                                    # Additional notebooks
+│── images/                                       # Visualizations and plots
+│── .gitignore                                    # Git ignore file
 ```
