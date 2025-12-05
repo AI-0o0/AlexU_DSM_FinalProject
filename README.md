@@ -20,6 +20,18 @@ This project involves collecting, inspecting, cleaning, and analyzing a dataset 
 The dataset is collected via **web scraping or APIs**, inspected for quality issues, cleaned, and then analyzed through **exploratory data analysis (EDA)** with visualizations and insights then building a machine learning model.
 
 ---
+## 📁 Repository Structure
+```
+AlexU_DSM_FinalProject/
+│── notebooks/ 
+│   └── DataScienceMethodology_Fall2025_Final.ipynb  # Main Jupyter Notebook
+│── data/                                         # Folder for datasets
+│   └── raw/                                      # Raw datasets
+│   └── cleaned/                                  # Cleaned datasets
+│── images/                                       # Visualizations and figures
+│── README.md                                     # Project Overview
+```
+---
 
 ## 🛠️ Tasks Breakdown
 1. **Data Collection**  
@@ -58,19 +70,6 @@ The dataset is collected via **web scraping or APIs**, inspected for quality iss
   - BeautifulSoup4
   - scikit-learn
 ```bash
-pip install pandas numpy matplotlib seaborn requests beautifulsoup4 scikit-learn
+pip install -r requirements.txt
 ```
 
----
-## 📁 Repository Structure
-```
-AlexU_DSM_FinalProject/
-│── DataScienceMethodology_Fall2025_Final.ipynb  # Main Jupyter Notebook
-│── README.md                                     # Project Overview
-│── data/                                         # Folder for datasets
-│   └── raw/                                      # Raw datasets
-│   └── cleaned/                                  # Cleaned datasets
-│── notebooks/                                    # Additional notebooks
-│── images/                                       # Visualizations and plots
-│── .gitignore                                    # Git ignore file
-```
